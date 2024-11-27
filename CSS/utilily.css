@@ -1,0 +1,76 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background: #000;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/***************************************************/
+
+/* Style the scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 16px; /* Increased width of the vertical scrollbar */
+    height: 16px; /* Increased height of the horizontal scrollbar */
+  }
+  
+  /* Track (background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #1c1c1c; /* Dark background for the track */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
+  }
+  
+  /* Handle (draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6e6e6e, #333333); /* Dark gradient for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #1c1c1c; /* Border to create a gap between thumb and track */
+  }
+  
+  /* Handle when hovered (user interaction with the scrollbar) */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #4e4e4e, #222222); /* Slightly lighter gradient on hover */
+  }
+  
+  /* Optional: Styling for the scrollbar corners */
+  ::-webkit-scrollbar-corner {
+    background: #1c1c1c; /* Dark background for the scrollbar corner */
+  }
+  
+  
+  
